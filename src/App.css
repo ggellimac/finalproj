@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,11 +17,57 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#create-button {
+  margin-top: 10px;
+}
+
+#data-table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+#main-header {
+  margin-top: 20px;
+}
+
+.ExcelTable2007 {
+  width: 90%;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ExcelTable2007 td, .ExcelTable2007 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.ExcelTable2007 tr:nth-child(even){background-color: #f2f2f2;}
+
+.ExcelTable2007 tr:hover {background-color: #ddd;}
+
+.ExcelTable2007 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.filters {
+  padding: 20px;
+  font-size: 20px;
+}
+
+#boxes {
+  margin-right: 10px;
 }
